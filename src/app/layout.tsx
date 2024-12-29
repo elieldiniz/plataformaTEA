@@ -23,11 +23,21 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="pt-br">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        className={`${geistSans.variable} ${geistMono.variable} antialiased min-h-screen bg-gradient-to-r from-blue-50 to-blue-100`}
       >
-        {children}
+       <header className="bg-blue-500 py-4 shadow-lg">
+          <div className="container mx-auto text-center">
+            <h1 className="text-white text-2xl font-bold">Plataforma de Apoio a Autistas</h1>
+            <main className="container mx-auto px-4 py-8">{children}</main>
+            <footer className="bg-blue-500 py-4 mt-10">
+          <div className="container mx-auto text-center">
+            <p className="text-white">© 2024 Plataforma de Apoio a Autistas</p>
+            </div>
+            </footer>
+          </div>
+        </header>
       </body>
     </html>
   );
