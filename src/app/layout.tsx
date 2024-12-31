@@ -29,7 +29,7 @@ export default function RootLayout({
       >
        <header className="bg-blue-500 py-4 shadow-lg">
           <div className="container mx-auto text-center">
-            <h1 className="text-white text-2xl font-bold">Plataforma de Apoio a Autistas</h1>
+          <h1 className="text-white text-2xl font-bold font-serif">Plataforma de Apoio TEA</h1>
             <main className="container mx-auto px-4 py-8">{children}</main>
             <footer className="bg-blue-500 py-4 mt-10">
           <div className="container mx-auto text-center">
