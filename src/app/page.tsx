@@ -18,7 +18,7 @@ export default function Home() {
             </p>
           </Link>
 
-          <Link href="/direitos">
+          <Link href="/direito">
             <p className="block bg-green-300 text-green-900 text-center px-6 py-4 rounded-lg shadow hover:bg-green-400">
               Saiba Mais Sobre Seus Direitos
             </p>
@@ -36,13 +36,13 @@ export default function Home() {
             </p>
           </Link>
 
-          <Link href="/familias">
+          <Link href="/orientacoes">
             <p className="block bg-teal-300 text-teal-900 text-center px-6 py-4 rounded-lg shadow hover:bg-teal-400">
               Apoio e Dicas para Famílias
             </p>
           </Link>
 
-          <Link href="/tecnologias">
+          <Link href="/tecnologia">
             <p className="block bg-yellow-300 text-yellow-900 text-center px-6 py-4 rounded-lg shadow hover:bg-yellow-400">
               Conheça Tecnologias Assistivas
             </p>

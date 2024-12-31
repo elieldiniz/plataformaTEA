@@ -12,25 +12,25 @@ export default function educacao(){
         </p>
 
         <div className="grid gap-6 md:grid-cols-2">
-          <Link href="/direito/educacao-e-inclusao/estrategias-pedagogicas">
+          <Link href="/educacao/pedagogia">
             <p className="block bg-green-300 text-green-900 text-center px-6 py-4 rounded-lg shadow hover:bg-green-400">
               Estratégias Pedagógicas para Inclusão
             </p>
           </Link>
 
-          <Link href="/direito/educacao-e-inclusao/adaptacoes-ambientais">
+          <Link href="/educacao/adaptacoesAmbientais">
             <p className="block bg-blue-300 text-blue-900 text-center px-6 py-4 rounded-lg shadow hover:bg-blue-400">
               Adaptações no Ambiente Escolar
             </p>
           </Link>
 
-          <Link href="/direito/educacao-e-inclusao/formacao-de-professores">
+          <Link href="/educacao/formacaoProfessores">
             <p className="block bg-purple-300 text-purple-900 text-center px-6 py-4 rounded-lg shadow hover:bg-purple-400">
               Formação de Professores para Trabalhar com TEA
             </p>
           </Link>
 
-          <Link href="/direito/educacao-e-inclusao/programas-de-inclusao">
+          <Link href="/educacao/programasInclusao">
             <p className="block bg-orange-300 text-orange-900 text-center px-6 py-4 rounded-lg shadow hover:bg-orange-400">
               Programas de Inclusão Educacional
             </p>
